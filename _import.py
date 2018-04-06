@@ -7,6 +7,8 @@ import functools
 from types import MethodType
 
 
+from threading import Thread, Lock, RLock
+
 class A(object):
 
     @classmethod
